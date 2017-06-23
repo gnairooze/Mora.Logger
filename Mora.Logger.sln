@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLogger", "ConsoleLog
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerHelper", "LoggerHelper\LoggerHelper.csproj", "{EADCDC55-8334-4AD8-85E7-F61758036C0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsSqlLogger", "MsSqlLogger\MsSqlLogger.csproj", "{6AA5F61D-396A-4D33-9AB7-E0D42765887D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EADCDC55-8334-4AD8-85E7-F61758036C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EADCDC55-8334-4AD8-85E7-F61758036C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EADCDC55-8334-4AD8-85E7-F61758036C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA5F61D-396A-4D33-9AB7-E0D42765887D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA5F61D-396A-4D33-9AB7-E0D42765887D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA5F61D-396A-4D33-9AB7-E0D42765887D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA5F61D-396A-4D33-9AB7-E0D42765887D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
