@@ -1,7 +1,7 @@
 ###############################################################################
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
-* text=auto
+* text=crlf
 
 ###############################################################################
 # Set default behavior for command prompt diff.
@@ -60,4 +60,4 @@
 #*.pdf   diff=astextplain
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
-#*.RTF   diff=astextplain
+#*.RTF   diff=astextplain 
