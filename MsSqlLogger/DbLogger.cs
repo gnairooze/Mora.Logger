@@ -16,7 +16,7 @@ namespace Mora.Logger.MsSqlLogger
         public bool CanAddInfo { get; set; }
         
         public bool CanAddWarning { get; set; }
-        
+
         public Guid Log(LogModel model)
         {
             Guid businessID = Guid.Empty;

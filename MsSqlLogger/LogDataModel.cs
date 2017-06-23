@@ -25,7 +25,7 @@ namespace Mora.Logger.MsSqlLogger
         [Index]
         public byte LogTypeID { get; set; }
         [Required]
-        [MaxLength(100)]
+        [MaxLength(500)]
         public string Who { get; set; }
         [Required]
         public string What { get; set; }

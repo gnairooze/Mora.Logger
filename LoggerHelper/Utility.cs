@@ -49,7 +49,7 @@ namespace Mora.Logger.LoggerHelper
                 }
             }
 
-            System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            System.Reflection.Assembly assembly = System.Reflection.Assembly.GetCallingAssembly();
 
             string who = string.Format("Client IP:{0} | HostName:{1} | IPs:{2} | Location:{3} | Assembly:{4} | Class:{5} | Method:{6}", clientIp, name, string.Join(",", allIPs.ToArray()), assembly.Location, assembly.FullName, className, methodName);
 
